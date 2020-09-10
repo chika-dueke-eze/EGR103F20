@@ -1,10 +1,3 @@
-"""
--take 2 parms
-- n (no of digits), num (factor)
-
-find how many times highest no is disvisble - lower inone
-"""
-
 def factor_count(n, m):
     small_n = 10**(n-1)
     big_n = (10**n) - 1
