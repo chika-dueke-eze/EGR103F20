@@ -1,9 +1,8 @@
-def mult_table(nr,nc):
+def mult_table(nr,nc):         #define function that takes in two input, no of rows (nr) and no of columns (nc)
   table = "  "
   for c1 in range(1,nc+1):
     table += "{:4}".format(c1)
   table += "\n"
-  print(table)
   
   for r in range(1,nr+1):
     table += "{:2}".format(r)
@@ -13,5 +12,5 @@ def mult_table(nr,nc):
   return(table)
     
 
-if _name_ == "_main_":
+if __name__ == "__main__":
   print(mult_table(12,12))
