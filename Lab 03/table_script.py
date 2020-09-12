@@ -1,4 +1,4 @@
-def mult_table(nr,nc):         #define function that takes in two input, no of rows (nr) and no of columns (nc)
+def mult_table(nr=12,nc=12):         #define function that takes in two input, no of rows (nr) and no of columns (nc) that defaults to 12
   table = "  "
   for c1 in range(1,nc+1):
     table += "{:4}".format(c1)
