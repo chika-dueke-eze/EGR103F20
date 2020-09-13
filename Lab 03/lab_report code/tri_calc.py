@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-[tri_calc.py]
-[Chika Dueke-Eze]
-[09-13-2020]
-
-I understand and have adhered to all the tenets of the Duke Community Standard
-in creating this code.
-Signed: [cgd19]
-"""
 # %% Import modules
 import numpy as np
 import matplotlib.pyplot as plt
