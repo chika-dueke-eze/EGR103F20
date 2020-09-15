@@ -1,6 +1,11 @@
+'''
+script that takes 2 parameters 'n' --> no of digits and 'm'--> int value
+and returns the total number of factor in the interval
+'''
+
 def factor_count(n, m):
-    small_n = 10**(n-1)
-    big_n = (10**n) - 1
+    small_n = 10**(n-1)      #gets the lower limit of the interval
+    big_n = (10**n) - 1      #gets the upper limit of the interval
     poss_vals = (big_n//m)-(small_n//m)
     return poss_vals
 
