@@ -31,3 +31,4 @@ fig.tight_layout()
 
 # Save the graph as EPS and PDF
 fig.savefig('SinusoidalFuction.pdf')
+fig.savefig('SinusoidalFuction.eps')
