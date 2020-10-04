@@ -1,12 +1,3 @@
-"""
-[chapra_0326.py]
-[Chika Dueke-Eze]
-[10-03-2020]
-
-I understand and have adhered to all the tenets of the Duke Community Standard
-in creating this code.
-Signed: [cgd19]
-"""
 #%%
 import numpy as np
 import matplotlib.pyplot as plt
