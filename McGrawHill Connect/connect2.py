@@ -32,7 +32,7 @@ fig, ax = plt.subplots(2, 1, num=1, clear=True)
 
 
 #plot graph of A versus m
-ax[0].plot(m,A, '.')
+ax[0].plot(m,A, 'cs:', mfc = 'b', mec = 'b')
 ax[0].grid(True)
 ax[0].set(
     #xlabel = "m, kg",
@@ -41,7 +41,7 @@ ax[0].set(
     )
 
 #plot graph of C_D versus m
-ax[1].plot(m,C_D, '.')
+ax[1].plot(m,C_D,'yo--', mfc = "r", mec = "r")
 ax[1].grid(True)
 ax[1].set(
     xlabel = "m, kg",
