@@ -7,7 +7,7 @@ Written by: Michael R. Gustafson II
 
 I understand and have adhered to all the tenets of the Duke Community Standard
 in creating this code.
-Signed: [cdg19]
+Signed: [chika]
 """
 # %% Import modules
 import numpy as np
