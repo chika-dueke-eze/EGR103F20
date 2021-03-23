@@ -13,7 +13,7 @@ def bags(strength, food):
         count = count + bags_needed
     return count
 
-if __name__ == "__main__":                 # test
+if __name__ == "__main__":                 #test
     print(bags(3,["DAIRY",
  "DAIRY",
  "PRODUCE",
