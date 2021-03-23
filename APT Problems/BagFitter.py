@@ -2,6 +2,7 @@ import math
 def bags(strength, food):
     
     """
+    
     return int based on parameters strength, an int
     and food a list of Strings
     """
