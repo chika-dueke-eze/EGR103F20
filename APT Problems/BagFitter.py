@@ -2,11 +2,10 @@ import math
 def bags(strength, food):
     
     """
-    
     return int based on parameters strength, an int
     and food a list of Strings
     """
-    each_food = set(food)                   #gets unique elements of items in food list 
+    each_food = set(food)                   #gets unique elements of items in food list.
     count = 0
     for i in each_food:
         sum_each_food = food.count(i)
